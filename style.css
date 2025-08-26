@@ -1,0 +1,321 @@
+/* *{
+     background-color: black;
+}  */
+.container{
+    margin: 50px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 10px black inset;
+    border: 2px;
+    height: 100px;
+    width: 250px;
+    border-radius:65px;
+    background-color: #87CEEB;
+    overflow: hidden;
+}
+.sun{
+    box-shadow: -4px -3px 100px yellow;
+    height: 81px;
+    width: 81px;
+    border-radius: 50%;
+    position:relative;
+    top: 7px;
+    left: 10px;
+    background-color: yellow;
+    z-index: 10;
+    /* animation: sun 2s ease-in-out infinite forwards ; */
+}
+.cloud1{
+    border: 2px solid rgb(255, 255, 255);
+    height: 67px;
+    width:70px;
+    border-radius: 60%;
+    position: relative;
+    top: 18px;
+    left: 69px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 101px;
+    z-index: 1;
+}
+.cloud2{
+    border: 2px solid rgb(255, 255, 255);
+    height: 78px;
+    width: 66px;
+    border-radius: 100%;
+    position: relative;
+    top: 14px;
+    left: 25px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 82px;
+    z-index: 1;
+    box-shadow: -9px -5px 1px #add8e6;
+}
+.cloud3{
+    border: 2px solid rgb(255, 255, 255);
+    height: 54px;
+    width: 70px;
+    border-radius: 75%;
+    position: relative;
+    top: -43px;
+    left: 125px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 101px;
+    z-index:1;
+    box-shadow: -9px -9px 1px #add8e6;
+}
+.cloud4{
+    border: 2px solid rgb(255, 255, 255);
+    height: 40px;
+    width: 60px;
+    border-radius: 97%;
+    position: relative;
+    top: -43px;
+    left: 20px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 101px;
+    z-index:1;
+    box-shadow: -9px -9px 1px #add8e6;
+}
+.cloud5{
+    border: 2px solid white;
+    height: 35px;
+    width: 77px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -43px;
+    left: -90px;
+    z-index:1;
+    box-shadow: -9px -9px 1px #add8e6;
+}
+.cloud6{
+    border: 2px solid white;
+    height: 35px;
+    width: 70px;
+    border-radius: 80%;
+    background-color: white;
+    position: relative;
+    top: -162px;
+    left: 13px;
+    z-index:1;
+    box-shadow: -9px -9px 1px #add8e6;
+}
+
+.ray1{
+    background-color: rgba(214, 214, 236, 0.562);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    top: -162px;
+    left: -82px;
+    /* animation: sun 2s ease-in-out ; */
+}
+.ray2{
+    background-color: rgb(214 214 236 / 39%);
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: relative;
+    top: -317px;
+    left: -15px;
+    /* animation: sun 2s ease-in-out  ; */
+}
+
+.ray3{
+    background-color: rgb(214 214 236 / 25%);
+    height: 226px;
+    width: 220px;
+    border-radius: 50%;
+    position: relative;
+    top: -509px;
+    left: -22px;
+    /* animation: sun 2s ease-in-out alternate-reverse  ; */
+}
+
+ /* .clouds{
+    animation: sky 3s ease-out  1s forwards ; 
+}  */
+
+.light{
+    display: inline-block;
+}
+
+.dark{
+    margin: 50px;
+    border: 2px solid black;
+    box-shadow: 7px 7px 10px black inset;
+    border: 2px;
+    height: 100px;
+    width: 250px;
+    border-radius:65px;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.moon{
+    box-shadow: -4px -3px 100px rgb(255, 255, 255);
+    height: 81px;
+    width: 81px;
+    border-radius: 50%;
+    position:relative;
+    top: 7px;
+    left: 155px;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.pim1{
+    background-color:  #808080a1;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    display:block;
+    position: relative;
+    top: 6px;
+    left: 37px;
+    border-radius: 50%;
+}
+
+.pim2{
+    background-color: #808080a1;
+    height: 31px;
+    width: 31px;
+    z-index: 1;
+    display: block;
+    position: relative;
+    top: 6px;
+    left: 7px;
+    border-radius: 50%;
+}
+
+.pim3{
+    background-color: #808080a1;
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    display: block;
+    position: relative;
+    top: -4px;
+    left: 45px;
+    border-radius: 50%;
+}
+
+.mray1{
+    background-color: rgba(214, 214, 236, 0.562);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -103px;
+    left: 117px;
+    display: block;
+    z-index: 1;
+}
+
+.mray2{
+    background-color: rgb(214 214 236 / 39%);
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    position: relative;
+    top: -259px;
+    left: 80px;
+    display: block;
+    z-index: 1; 
+}
+
+.mray3{
+    background-color: rgb(214 214 236 / 25%);
+    height: 226px;
+    width: 220px;
+    border-radius: 50%;
+    position: relative;
+    top: -456px;
+    left: 46px;
+    display: block;
+    z-index: 1;
+}
+
+
+.star1{
+    position: relative;
+    top: -611px;
+    left: 12px;
+}
+
+.star2{
+    position: relative;
+    top: -570px;
+    left: 19px;
+}
+
+.star3{
+    position: relative;
+    top: -614px;
+    left: 22px;
+}
+
+.star4{
+    position: relative;
+    top: -572px;
+    left: 20px;
+}
+
+.star5{
+    position: relative;
+    top: -616px;
+    left: 11px;
+}
+
+.dark {
+    display: none;
+}
+
+body.dark-mode .container {
+    display: none;
+}
+
+body.dark-mode .dark {
+    display: block;
+}
+
+body.dark-mode{
+    animation: darktheme 0.5s ease-in-out 0s forwards;
+}
+
+@keyframes darktheme {
+    from{
+
+    }
+    to{
+        background-color: black;
+    }
+}
+
+
+@keyframes sun {
+    from{
+
+    }
+    to{
+        left: 145px;
+    }
+}
+
+@keyframes sky {
+    from{
+
+    }
+    to{
+        top: -400px;
+    }
+}
+
+@keyframes moon {
+    from{
+
+    }
+    to{
+        left: 10px;
+    }
+}
