@@ -10,7 +10,7 @@
 
 <h1>To Try the website</h1>
 
-<h3><a href="https://amitsingh-codes.github.io/Theme/" target= "blank">link</a></h3>
+<h3><a href="https://amitsingh-codes.github.io/Theme/" target="_blank">link</a></h3>
 
 <h2>May show
 
